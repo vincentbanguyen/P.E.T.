@@ -1,16 +1,14 @@
-//
-//  ContentView.swift
-//  P.E.T.
-//
-//  Created by Vincent Nguyen on 4/30/22.
-//
-
 import SwiftUI
 
 struct ContentView: View {
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        ZStack {
+            Rectangle()
+                .frame(width: 300, height: 300)
+                .foregroundColor(.white)
+        Text("HI")
+        }
     }
 }
 

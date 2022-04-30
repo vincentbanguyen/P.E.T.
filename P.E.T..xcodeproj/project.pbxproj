@@ -11,6 +11,7 @@
 		E19E872D281D8BAB000D5285 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19E872C281D8BAB000D5285 /* ContentView.swift */; };
 		E19E872F281D8BAF000D5285 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E19E872E281D8BAF000D5285 /* Assets.xcassets */; };
 		E19E8732281D8BAF000D5285 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E19E8731281D8BAF000D5285 /* Preview Assets.xcassets */; };
+		E19E873A281D9ADB000D5285 /* GetQuote.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19E8739281D9ADB000D5285 /* GetQuote.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,8 @@
 		E19E872E281D8BAF000D5285 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E19E8731281D8BAF000D5285 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E19E8733281D8BAF000D5285 /* P_E_T_.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = P_E_T_.entitlements; sourceTree = "<group>"; };
+		E19E8739281D9ADB000D5285 /* GetQuote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetQuote.swift; sourceTree = "<group>"; };
+		E19E873B281DA038000D5285 /* P-E-T--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "P-E-T--Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +55,9 @@
 		E19E8729281D8BAB000D5285 /* P.E.T. */ = {
 			isa = PBXGroup;
 			children = (
+				E19E873B281DA038000D5285 /* P-E-T--Info.plist */,
 				E19E872A281D8BAB000D5285 /* P_E_T_App.swift */,
+				E19E8739281D9ADB000D5285 /* GetQuote.swift */,
 				E19E872C281D8BAB000D5285 /* ContentView.swift */,
 				E19E872E281D8BAF000D5285 /* Assets.xcassets */,
 				E19E8733281D8BAF000D5285 /* P_E_T_.entitlements */,
@@ -141,6 +146,7 @@
 			files = (
 				E19E872D281D8BAB000D5285 /* ContentView.swift in Sources */,
 				E19E872B281D8BAB000D5285 /* P_E_T_App.swift in Sources */,
+				E19E873A281D9ADB000D5285 /* GetQuote.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +280,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "P-E-T--Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -301,6 +308,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "P-E-T--Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
